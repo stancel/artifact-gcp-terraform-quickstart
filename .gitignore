@@ -4,3 +4,9 @@
 
 # Module directory
 .terraform/
+
+# Environment variables
+.env
+
+# GCP Crédentials
+account.json

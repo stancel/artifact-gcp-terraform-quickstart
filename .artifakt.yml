@@ -1,0 +1,57 @@
+# Artifact metadata and configuration
+title: Quickstart GCP Terraform
+type: free # Paid artifacts on the store coming soon
+description: Quickstart to show how an artifact works using GCP Bucket
+cloud_provider: gcp
+build_engine: terraform
+available_regions:
+  - northamerica-northeast1
+  - us-central1
+  - us-east1
+  - us-east4
+  - us-west1
+  - southamerica-east1
+  - europe-west1
+  - europe-west2
+  - europe-west3
+  - europe-west4
+  - asia-east1
+  - asia-northeast1
+  - asia-south1
+  - asia-southeast1
+  - australia-southeast1
+image: http://assets.artifakt.io/quickstart-artifact.png
+category: quickstart
+main_language: html_css
+licence:
+   code: mit
+   name: MIT
+tags:
+ - quickstart 
+ - bucket 
+ - GCP
+ - hello world
+
+infrastructure:
+  diagram: https://assets.artifakt.io/quickstart_gcp_terraform.png
+  build_time: 10 #in seconds 
+  cost_estimation:
+    monthly_price: 0.03  #in dollars per month 
+    details: calculated for 5K Get request per month and used space under 1Go in Frankfurt 
+
+inputs:	
+  - 
+    code: bucket_name
+    name: Bucket name
+    description: Choose your bucket name, must be unique and lowercase
+    category: data
+    type: text 
+    default: myS3bucket
+    required:  true
+      
+outputs:
+  - 
+    code: url
+    name: Website URL
+    description: Fully qualified website URL 
+    category: url
