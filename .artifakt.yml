@@ -20,7 +20,7 @@ available_regions:
   - asia-south1
   - asia-southeast1
   - australia-southeast1
-image: https://assets.artifakt.io/quickstart-artifact.png
+image: https://assets.artifakt.io/artifacts/quickstart-artifact.png
 category: quickstart
 main_language: html_css
 licence:
@@ -33,7 +33,7 @@ tags:
  - hello world
 
 infrastructure:
-  diagram: https://assets.artifakt.io/quickstart_gcp_terraform.png
+  diagram: https://assets.artifakt.io/artifacts/quickstart_gcp_terraform.png
   build_time: 10 #in seconds 
   cost_estimation:
     monthly_price: 0.03  #in dollars per month 
