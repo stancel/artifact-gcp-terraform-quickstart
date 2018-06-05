@@ -33,7 +33,7 @@ tags:
  - hello world
 
 infrastructure:
-  diagram: hhttps://assets.artifakt.io/artifacts/quickstart_gcp_terraform.png
+  diagram: https://assets.artifakt.io/artifacts/quickstart_gcp_terraform.png
   build_time: 10 #in seconds 
   cost_estimation:
     monthly_price: 0.03  #in dollars per month 
