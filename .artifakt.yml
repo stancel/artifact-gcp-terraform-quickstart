@@ -20,7 +20,7 @@ available_regions:
   - asia-south1
   - asia-southeast1
   - australia-southeast1
-image: http://assets.artifakt.io/quickstart-artifact.png
+image: https://assets.artifakt.io/quickstart-artifact.png
 category: quickstart
 main_language: html_css
 licence:
